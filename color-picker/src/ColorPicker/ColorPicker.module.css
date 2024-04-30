@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "custom-font";
+  src: url("../assets/fonts/carmela/Carmela.ttf") format('ttf'),
+  url("../assets/fonts/carmela/Carmela.woff") format('woff'),
+   url("../assets/fonts/carmela/Carmela.woff2") format('woff2'),
+   url("../assets/fonts/carmela/Carmela.otf") format('otf');
+}
+
+*{
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.customFont{
+  font-family: "custom-font", sans-serif;
+}
+
+
+.headingContainer {
+  color: rgb(244, 255, 251);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 1rem;
+  min-width: 15rem;
+  background-color: rgba(26, 26, 26, 0.096);
+  font-size: 3rem;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 4rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0;
+  margin: 0 0.5rem 0 0.5rem;
+  height: 4rem;
+  width: 4rem;
+}
+
+input[type="color"] {
+  cursor: pointer;
+}
